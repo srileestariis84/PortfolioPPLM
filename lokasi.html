@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil & Lokasi - Sri Lestari</title>
+    <!-- Font Estetik -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Gradasi Pastel -->
+    <div class="pastel-bg"></div>
+
+    <!-- Sidebar Estetik -->
+    <div id="mySidebar" class="sidebar glass-effect">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+        <h2 class="sidebar-title">Menu</h2>
+        <a href="index.html">Beranda</a>
+        <a href="lokasi.html" class="active">Profil & Lokasi</a>
+        <a href="siklus1.html">Siklus 1</a>
+        <a href="siklus2.html">Siklus 2</a>
+        <a href="siklus3.html">Siklus 3</a>
+        <a href="siklus4.html">Siklus 4</a>
+        <a href="non-mengajar.html">Non-Mengajar</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn glass-effect" onclick="toggleNav()">☰ Menu</button>
+
+        <div class="page-header">
+            <h1 class="page-title">Profil Diri</h1>
+        </div>
+
+        <!-- 1. KARTU PROFIL UTAMA -->
+        <div class="profile-layout glass-effect">
+            <div class="profile-photo-wrapper blob-frame">
+                <!-- Aku sudah sesuaikan dengan nama file fotomu yang ada di screenshot -->
+                <img src="Foto Sri Lestari_4x6.jpg" alt="Foto Sri Lestari" onerror="this.src='https://via.placeholder.com/300x300/ffd1dc/6a5acd?text=Foto+Profil+Diri'">
+            </div>
+            
+            <div class="profile-details">
+                <h2 class="nama-lengkap">Sri Lestari, S.Pd.</h2>
+                <p class="quote-text">
+                    <em>"Mengajar matematika bukan sekadar tentang angka dan rumus, melainkan melatih logika, memecahkan masalah, dan membentuk karakter masa depan."</em>
+                </p>
+                
+                <div class="education-history">
+                    <p><strong>Pendidikan Sebelumnya:</strong> <br> Universitas Sebelas Maret (UNS)</p>
+                    <p><strong>Pendidikan Saat Ini:</strong> <br> PPG Prajabatan Matematika - Universitas Muhammadiyah Semarang</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. KARTU TIM PEMBIMBING -->
+        <div class="mentor-section glass-effect">
+            <h3 class="section-heading">Tim Pembimbing PPL</h3>
+            <div class="mentor-list">
+                <div class="mentor-item">
+                    <span class="mentor-role">Dosen Pembimbing Lapangan (DPL)</span>
+                    <span class="mentor-name">Dr. Venissa Dian Mawarsari, M.Pd.</span>
+                </div>
+                <div class="mentor-item">
+                    <span class="mentor-role">Guru Pamong</span>
+                    <span class="mentor-name">M. Ally Firdaus, S.Ag., M.Pd.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-header" style="margin-top: 60px;">
+            <h1 class="page-title">Lokasi & Instansi</h1>
+        </div>
+
+        <!-- 3. KARTU LOKASI BERGAMBAR (SEPERTI YANG KAMU MAU) -->
+        <div class="location-wrapper">
+            
+            <!-- Kartu LPTK (Unimus) -->
+            <div class="location-card glass-effect">
+                <div class="location-img-frame">
+                    <img src="unimus.jpg" alt="Universitas Muhammadiyah Semarang">
+                </div>
+                <div class="location-info">
+                    <span class="badge">LPTK</span>
+                    <h2>Universitas Muhammadiyah Semarang</h2>
+                    <p>Tempat menempuh studi Pendidikan Profesi Guru (PPG) Prajabatan pada program studi Matematika.</p>
+                    <!-- Link Google Maps -->
+                    <a href="https://maps.app.goo.gl/BGQwWDpS1vQYJCRH6" target="_blank" class="btn-maps">📍 Buka di Google Maps</a>
+                </div>
+            </div>
+
+            <!-- Kartu Sekolah PPL (MAN 1 Semarang) -->
+            <div class="location-card glass-effect">
+                <div class="location-img-frame">
+                    <img src="man1.jpg" alt="MA Negeri 1 Kota Semarang">
+                </div>
+                <div class="location-info">
+                    <span class="badge">Sekolah Mitra PPL</span>
+                    <h2>MA Negeri 1 Kota Semarang</h2>
+                    <p>Lokasi pelaksanaan Praktik Pengalaman Lapangan (PPL) Mandiri dan implementasi modul ajar matematika kelas XI 8.</p>
+                    <!-- Link Google Maps -->
+                    <a href="https://maps.app.goo.gl/vHLJqYk9JbXrYwbE9" target="_blank" class="btn-maps">📍 Buka di Google Maps</a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Dikembangkan oleh: Sri Lestari, S.Pd. - PPL PPG Unimus 2026</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
